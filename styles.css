@@ -13,7 +13,22 @@ body {
 
 #header {
     display: grid;
+    /* grid-template-columns: 1fr 8fr 4fr; */
+}
+
+#header-top-row {
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 2fr;
+}
+
+#header-bottom-row {
+    display: grid;
     grid-template-columns: 1fr 8fr 4fr;
+}
+
+#header-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #body {
