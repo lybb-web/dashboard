@@ -1,5 +1,5 @@
 body {
-    height: 100vw;
+    /* height: 100vw; */
     /* background-color: pink; */
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -9,4 +9,18 @@ body {
 #sidebar {
     height: 100vw;
     background-color: teal;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 8fr 4fr;
+}
+
+#body {
+    background-color: blue;
+}
+
+#right-body {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
 }
