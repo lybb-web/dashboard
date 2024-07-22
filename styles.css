@@ -1,0 +1,10 @@
+body {
+    height: 100vw;
+    background-color: pink;
+}
+
+
+#sidebar {
+    height: 100vw;
+    background-color: teal;
+}
