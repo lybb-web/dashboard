@@ -1,6 +1,8 @@
 body {
     height: 100vw;
-    background-color: pink;
+    /* background-color: pink; */
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
 
