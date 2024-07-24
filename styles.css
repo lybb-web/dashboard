@@ -8,10 +8,11 @@ body {
 
 #sidebar {
     height: 100vw;
-    background-color: teal;
+    background-color: #1992d4;
     color: white;
     font-size: 24px;
     font-family: Roboto;
+
 }
 
 .sidebar-icon {
