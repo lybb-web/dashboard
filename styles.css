@@ -15,9 +15,16 @@ body {
 
 }
 
+.sidebar-line {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding-left: 1em;
+}
+
 .sidebar-icon {
     width: 25px;
     height: 25px;
+    
 }
 
 #header {
