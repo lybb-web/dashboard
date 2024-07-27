@@ -48,8 +48,19 @@ body {
 
 #header-top-row {
     display: grid;
-    grid-template-columns: 8fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 8fr 1fr 1fr 2fr;
 }
+
+#search-bar {
+    height: 25px;
+    border-radius: 10px;
+    background-color: #e2e8f0;
+    border: 0px;
+
+
+}
+
+
 
 #header-bottom-row {
     display: grid;
