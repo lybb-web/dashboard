@@ -1,14 +1,16 @@
 body {
     /* height: 100vw; */
     /* background-color: pink; */
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
     font-family: "Roboto";
+    margin: 0px;
 }
 
 
 #sidebar {
-    height: 100vw;
+    height: 100%;
     background-color: #1992d4;
     color: white;
     font-size: 24px;
@@ -44,6 +46,7 @@ body {
 
 #header {
     display: grid;
+    font-weight: 500;
     /* grid-template-columns: 1fr 8fr 4fr; */
 }
 
@@ -51,7 +54,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr 1fr 2fr;
     font-size: 24px;
-    font-weight: 500;
+    margin-top: 0.5em;
 }
 
 #search-bar {
@@ -63,11 +66,26 @@ body {
 
 }
 
+#top-profile {
+    height: 2em;
+    width: auto;
+    
+}
+
+#bottom-profile {
+    height: 5em;
+    width: auto;
+}
+
 
 
 #header-bottom-row {
     display: grid;
     grid-template-columns: 1fr 8fr 4fr;
+}
+
+#user-identification {
+    font-size: 30px;
 }
 
 #header-buttons {
@@ -84,7 +102,7 @@ button {
     height: 40px;
     width: 100px;
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 #body {
