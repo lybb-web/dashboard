@@ -3,6 +3,7 @@ body {
     /* background-color: pink; */
     display: grid;
     grid-template-columns: 1fr 5fr;
+    font-family: "Roboto";
 }
 
 
@@ -49,6 +50,8 @@ body {
 #header-top-row {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr 1fr 2fr;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #search-bar {
@@ -70,6 +73,18 @@ body {
 #header-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    background-color: #1992d4;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
 }
 
 #body {
