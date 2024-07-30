@@ -1,10 +1,12 @@
+* {
+    font-family: "Roboto";
+}
 body {
     /* height: 100vw; */
     /* background-color: pink; */
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    font-family: "Roboto";
     margin: 0px;
 }
 
@@ -14,7 +16,6 @@ body {
     background-color: #1992d4;
     color: white;
     font-size: 24px;
-    font-family: "Roboto";
     display: flex;
     flex-direction: column;
     gap: 0.7em;
@@ -98,7 +99,6 @@ button {
     color: white;
     font-size: 16px;
     font-weight: 700;
-    font-family: "Roboto";
     height: 40px;
     width: 100px;
     border: none;
@@ -118,12 +118,50 @@ button {
 #your-projects {
     display: flex;
     flex-direction: column;
+    margin: 1em;
     gap: 1em;
+}
+
+#your-projects-title {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #project-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 2em;
+}
+
+
+.project-card {
+    background-color: white;
+    border-left: 10px solid #f0b429;
+    border-radius: 10px;
+    height: 200px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.project-content {
+    font-size: 18px;
+    color: #b1b1b1;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 1.5em;
+    margin-top: auto;
 }
 
 /* #announcements-and-trends {
