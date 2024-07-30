@@ -106,9 +106,24 @@ button {
 }
 
 #body {
-    background-color: blue;
+    background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 5fr 1fr;
+}
+
+#body > div {
+    margin-top: 2em;
+}
+
+#your-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
 }
 
 /* #announcements-and-trends {
