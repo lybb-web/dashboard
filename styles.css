@@ -122,7 +122,7 @@ button {
     gap: 1em;
 }
 
-#your-projects-title {
+.body-title {
     font-size: 24px;
     font-weight: 500;
 }
